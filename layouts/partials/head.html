@@ -30,7 +30,7 @@
 {{ end }}
 
 {{- partial "umami_analytics.html" .}}
-{{ template "_internal/google_analytics_async.html" . }}
+{{ template "_internal/google_analytics.html" . }}
 
 {{- $font_awesome := resources.Get "css/font-awesome.min.css" -}}
 {{- $google_font := resources.Get "css/source-sans-pro.css" -}}
